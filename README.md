@@ -1,2 +1,4 @@
-# web-231
-Enterprise Javascript I
+# WEB 231 Enterprise JavaScript I
+## Contributors
+- Richard Krasso
+- Jordan Nishimura-Anderson
