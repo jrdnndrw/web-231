@@ -1,0 +1,21 @@
+# Editor configuration, see https://editorconfig.org
+
+# top-most EditorConfig file
+root = true
+
+# configurations for every file
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# configurations for JavaScript files
+[*.js]
+quote_type = single
+
+# configurations for Markdown files
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false
