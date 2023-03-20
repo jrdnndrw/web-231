@@ -1,0 +1,44 @@
+/**
+    Title: site.css
+    Author: Jordan Nishimura-Anderson
+    Date: 3/19/2023
+    Description: Styling for the index.html file.
+*/
+
+/** The body styling. */
+body {
+  font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+/** The container styling. */
+#container {
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/** The header stylings. */
+h1, h2, h3, h4 {
+  background-color: #3C275A;
+  color: white;
+  border: 1px solid #D6A800;
+  padding: 10px;
+}
+
+/** The anchor styling. */
+a {
+  color: #453674;
+  text-decoration: none;
+}
+
+/** The anchor hover styling. */
+a:hover {
+  color: #4F3674;
+  background-color: #D6A800;
+}
+
+/** The anchor visited styling. */
+a:visited {
+    color: #3C275A;
+}
