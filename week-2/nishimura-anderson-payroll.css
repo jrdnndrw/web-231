@@ -5,11 +5,6 @@
     Description: This provides styling for the user interface of the payroll program.
 */
 
-/** The payroll header styling to center the text. */
-#payroll-header {
-  text-align: center;
-}
-
 /** The unordered list styling with a dotted red border. */
 ul {
   border: 1px dotted red;
