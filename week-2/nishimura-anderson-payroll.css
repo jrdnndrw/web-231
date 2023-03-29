@@ -5,6 +5,14 @@
     Description: This provides styling for the user interface of the payroll program.
 */
 
+/** The header stylings. */
+h1, h2, h3, h4 {
+  background-color: #3C275A;
+  color: white;
+  border: 1px solid #D6A800;
+  padding: 10px;
+}
+
 /** The unordered list styling with a dotted red border. */
 ul {
   border: 1px dotted red;
