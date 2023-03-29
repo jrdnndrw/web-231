@@ -1,0 +1,28 @@
+{
+  "name": "web-231",
+  "version": "1.0.0",
+  "description": "Web 231 - Enterprise JavaScript I",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrdnndrw/web-231.git"
+  },
+  "keywords": [
+    "introduction",
+    "html",
+    "javascript"
+  ],
+  "author": "Jordan Nishimura-Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrdnndrw/web-231/issues"
+  },
+  "homepage": "https://github.com/jrdnndrw/web-231#readme",
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}

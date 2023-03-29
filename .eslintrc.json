@@ -1,0 +1,20 @@
+{
+    "env": {
+        "browser": true,
+        "ES6": true
+    },
+    "extends": "standard",
+    "overrides": [
+      {
+        "files": ["exercise-3/nishimura-anderson-favorites.js"],
+        "rules": {
+          "no-unused-vars": "off"
+        }
+      }
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+    }
+}
