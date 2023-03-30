@@ -1,0 +1,81 @@
+<!--
+    Title: nishimura-anderson-temp-conversion.html
+    Author: Jordan Nishimura-Anderson
+    Date: 3/30/2023
+    Description: This provides the user interface for the temp conversion app.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- The head element metadata for the document. -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEB 231 - Enterprise JavaScript I</title>
+  <meta name="description" content="Functions and Events">
+  <meta name="keywords" content="html. javascript. functions. events">
+  <meta name="robots" content="noindex">
+  <meta name="author" content="Jordan Nishimura-Anderson">
+  <link href="nishimura-anderson-temp-conversion.css" type="text/css" rel="stylesheet">
+  <link href="../../global.css" type="text/css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+
+<!-- The body element contents of the document. -->
+
+<body>
+
+  <!-- The container for the card element. -->
+  <div id="container">
+    <!-- The headers for the container's content. -->
+    <h1 class="app-header">Welcome to the Temperature Conversion App!</h1>
+    <!-- The form element contains an input and button for the converter. -->
+    <div id="form-example">
+      <div class="card">
+        <!-- The header for the temperature converter card. -->
+        <div class="card-title">Fahrenheit to Celsius Converter</div>
+        <!-- The card contents consisting of and input and button to convert the temperature. -->
+        <div class="card-content">
+          <div class="form">
+            <div class="form-field">
+              <!-- A label and input for the fahrenheit temperature. -->
+              <label for="fahrenheitValue">Fahrenheit value:</label>
+              <input type="text" class="input" id="fahrenheitValue" name="fahrenheitValue">
+            </div>
+            <div class="form-field">
+              <!-- A button with an onclick event that calls the calcCelsius() function. -->
+              <button type="button" onclick="calcCelsius()" class="btn btn-primary full-width">Convert Temperature</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- The form element containing the results of the temperature conversion. -->
+    <div id="form-results-example">
+      <div class="card">
+        <!-- The header for the temperature results. -->
+        <div class="card-title">Conversion Results</div>
+        <!-- The div for the result of the temperature conversion. -->
+        <div class="card-content">
+          <div id="form-results"></div>
+        </div>
+      </div>
+
+      <!-- The anchor element returns the user to the home page. -->
+      <a class="return-home" href="../../index.html">Return</a>
+    </div>
+
+  </div>
+
+  <!-- The script element to link the temp conversion app JavaScript file. -->
+  <script src="nishimura-anderson-temp-conversion.js"></script>
+</body>
+
+</html>
