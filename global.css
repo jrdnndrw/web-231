@@ -26,12 +26,6 @@ body {
   box-sizing: border-box;
 }
 
-/** The card container styling. */
-.card-example {
-  width: 600px;
-  margin: 3% auto 0;
-}
-
 /** The card styling. */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
