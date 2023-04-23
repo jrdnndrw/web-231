@@ -1,0 +1,28 @@
+/**
+    Title: nishimura-anderson-bookstore.css
+    Author: Jordan Nishimura-Anderson
+    Date: 4/23/2023
+    Description: This provides styling for the user interface of the bookstore app.
+*/
+
+/** The container styling. */
+#container {
+  padding: 10px;
+}
+
+/** The form container styling. */
+#form-example {
+  width: 600px;
+  margin: 3% auto 0;
+}
+
+/** The form results container styling. */
+#form-results-example {
+  width: 600px;
+  margin: 3% auto 0;
+}
+
+/** The form result table header font-weight styling. */
+h3 {
+  font-weight: lighter;
+}

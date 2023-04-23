@@ -118,3 +118,34 @@ body {
 .return-home:visited {
     color: #3C275A;
 }
+
+/*
+  The below elements adds styling to HTML tables.
+  It sets the table header to purple and adds a grayish
+  border to the cells. It also adds a yellow hover
+  for table rows.
+*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4F3674;
+  color: white;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:hover {
+  background-color: #D6A800;
+  color: #4f3674;
+  cursor: pointer;
+}
