@@ -1,0 +1,32 @@
+/**
+    Title: nishimura-anderson-calculator.css
+    Author: Jordan Nishimura-Anderson
+    Date: 4/30/2023
+    Description: This provides styling for the user interface of the calculator app.
+*/
+
+/** The container styling. */
+#container {
+  padding: 10px;
+}
+
+/** Defines a container for the calculator forms */
+.calc-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 800px;
+  margin: 3% auto 0;
+  column-gap: 15px;
+}
+
+/** Styles the result div of the multiply form. */
+#mul-results {
+  text-align: center;
+  font-size: 28px;
+}
+
+/** Styles the result div of the divide form. */
+#div-results {
+  text-align: center;
+  font-size: 28px;
+}
