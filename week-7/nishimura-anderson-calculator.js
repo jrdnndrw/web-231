@@ -77,7 +77,7 @@ function displayMultiplyResults() {
 
     // Display the result in the 'mul-results' div.
     const resultCard = document.getElementById('mul-results')
-    resultCard.innerHTML = `${parsedInputOne} / ${parsedInputTwo} = ${sum}`
+    resultCard.innerHTML = `${parsedInputOne} * ${parsedInputTwo} = ${sum}`
   } catch (error) {
     // Display an error message in a window alert.
     window.alert(error.message)
