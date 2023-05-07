@@ -1,0 +1,85 @@
+<!--
+    Title: nishimura-anderson-in-n-out-books.html
+    Author: Jordan Nishimura-Anderson
+    Date: 5/7/2023
+    Description: This provides the user interface for the in-n-out-books app.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- The head element metadata for the document. -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEB 231 - Enterprise JavaScript I</title>
+  <meta name="description" content="Objects">
+  <meta name="keywords" content="html. javascript. objects">
+  <meta name="robots" content="noindex">
+  <meta name="author" content="Jordan Nishimura-Anderson">
+  <link href="nishimura-anderson-in-n-out-books.css" type="text/css" rel="stylesheet">
+  <link href="../global.css" type="text/css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+
+<!-- The body element contents of the document. -->
+
+<body>
+
+  <!-- The container for the card element. -->
+  <div id="container">
+    <!-- The headers for the container's content. -->
+    <h1 class="app-header">Welcome to the In-N-Out-Books!</h1>
+    <!-- The form element contains a selection and button for the favorites. -->
+    <div id="form-example">
+      <div class="card">
+        <!-- The header for the in-n-out-books card. -->
+        <div class="card-title">My Favorites</div>
+        <!-- The card contents consisting of drop down selection for favorites. -->
+        <div class="card-content">
+          <div class="form">
+            <div class="form-field">
+              <!-- A label and selection for the favorites. -->
+              <label for="choice">Choose a listing:</label>
+              <select name="choice" id="choice">
+                <option>--Select--</option>
+                <option value="books">Top 3 Favorite Books</option>
+                <option value="authors">Top 3 Favorite Authors</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <!-- A button with an onclick event that calls the display() function to display the selected favorite. -->
+              <button type="button" onclick="display()" class="btn btn-primary full-width">Display Listing</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- The form element containing the results of the favorites selection. -->
+    <div id="form-results-example">
+      <div class="card">
+        <!-- The header for the selection results. -->
+        <div class="card-title">Results</div>
+        <!-- The div for the result of the favorites selection. -->
+        <div class="card-content">
+          <div id="form-results"></div>
+        </div>
+      </div>
+
+      <!-- The anchor element returns the user to the home page. -->
+      <a class="return-home" href="../index.html">Return</a>
+    </div>
+
+  </div>
+
+  <!-- The script element to link the bookstore app JavaScript file. -->
+  <script src="nishimura-anderson-in-n-out-books.js"></script>
+</body>
+
+</html>
