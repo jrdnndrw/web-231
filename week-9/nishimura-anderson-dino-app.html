@@ -1,0 +1,94 @@
+<!--
+    Title: nishimura-anderson-dino-app.html
+    Author: Jordan Nishimura-Anderson
+    Date: 5/9/2023
+    Description: This provides the user interface for the dino app.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- The head element metadata for the document. -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEB 231 - Enterprise JavaScript I</title>
+  <meta name="description" content="Objects">
+  <meta name="keywords" content="html. javascript. objects">
+  <meta name="robots" content="noindex">
+  <meta name="author" content="Jordan Nishimura-Anderson">
+  <link href="nishimura-anderson-dino-app.css" type="text/css" rel="stylesheet">
+  <link href="../global.css" type="text/css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+
+<!-- The body element contents of the document. -->
+
+<body>
+
+  <!-- The container for the card element. -->
+  <div id="container">
+    <!-- The headers for the container's content. -->
+    <h1 class="app-header">Welcome to the Dino App!</h1>
+    <!-- The form element contains a selection and button for the dinosaurs. -->
+    <div id="form-example">
+      <div class="card">
+        <!-- The header for the dinosaur card. -->
+        <div class="card-title">Dino Form</div>
+        <!-- The card contents consisting of a radio group selection for dinosaurs. -->
+        <div class="card-content">
+          <div class="form-field">
+            <!-- Group of radio buttons for selecting a dinosaur option -->
+            <fieldset name="choice" id="choice">
+              <legend>Select an option</legend>
+              <div>
+                <input type="radio" name="dinosaur" id="gigantosaurus" value="Gigantosaurus">
+                <label for="gigantosaurus">How does a Gigantosaurus roar?</label><br><br>
+              </div>
+
+              <div>
+                <input type="radio" name="dinosaur" id="tyrannosaurus" value="Tyrannosaurus">
+                <label for="tyrannosaurus">How does a Tyrannosaurus growl?</label><br><br>
+              </div>
+
+              <div>
+                <input type="radio" name="dinosaur" id="velociraptor" value="Velociraptor">
+                <label for="velociraptor">How does a Velociraptor awk?</label>
+              </div>
+            </fieldset>
+          </div>
+          <div class="form-field">
+            <!-- A button with an onclick event that calls the display() function to display the selected dinosaur. -->
+            <button type="button" onclick="display()" class="btn btn-primary full-width">Submit</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- The anchor element returns the user to the home page. -->
+      <br><a class="return-home" href="../index.html">Return</a>
+    </div>
+
+    <!-- The form element containing the results of the dinosaur selection. -->
+    <div id="form-results-example">
+      <div class="card">
+        <!-- The header for the selection results. -->
+        <div class="card-title">Results</div>
+        <!-- The div for the result of the dinosaur selection. -->
+        <div class="card-content">
+          <div id="form-results"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- The script element to link the dino app JavaScript file. -->
+  <script src="nishimura-anderson-dino-app.js"></script>
+</body>
+
+</html>
